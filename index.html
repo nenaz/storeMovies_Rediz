@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+	<section class="content">
+		<div class="bottom_air">
+			<div class="menu_air air_ suppotr air_activ"><span>Support</span></div>
+			<div class="menu_air air_faq"><span>FAQ</span></div>
+			<div class="menu_air air_help"><span>Help</span></div>
+		</div>
+		<header>
+			<div class="logo">
+				<div class="logo_text_max">
+					<img class="logo_img" src="images/logo.png" alt=""/>
+					<span>Films</span><span>Flame</span>
+				</div>
+				<div class="logo_text_min">
+					<div></div>
+					<span>Фильмы живут тут</span>
+				</div>
+			</div>
+			<div class="statistics">
+				<span class="statistics_text">Статистика сайта</span>
+				<ul>
+					<li class="statistics_item" id="statistics_item1">
+						<!--img src="images/statistic_pic1.png" alt="" class="statistics_item_pic pic_first"-->
+						<div class="statpic" id="statpic1"></div>
+						<div class="statistics_texts">
+							<span class="statistics_name">всего фильмов</span>
+							<span class="statistics_number">7512</span>
+						</div>
+					</li>
+					<li class="statistics_item" id="statistics_item2">
+						<!--img src="images/statistic_pic1.png" alt="" class="statistics_item_pic"-->
+						<div class="statpic" id="statpic2"></div>
+						<div class="statistics_texts">
+							<span class="statistics_name">HD фильмов</span>
+							<span class="statistics_number">1601</span>
+						</div>
+					</li>
+					<li class="statistics_item" id="statistics_item3">
+						<!--img src="images/statistic_pic1.png" alt="" class="statistics_item_pic"-->
+						<div class="statpic" id="statpic3"></div>
+						<div class="statistics_texts">
+							<span class="statistics_name">Хранилище</span>
+							<span class="statistics_number">1,3 ТБ</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<div class="body_content">
+			<div class="body_left_vkladki_block">
+				<div class="vkladka registration vkl_activ">
+					<span>Регистрация</span>
+				</div>
+				<div class="vkladka sing_in">
+					<span>Логин</span>
+				</div>
+			</div>
+			<div class="body_right_block">
+				<ul class="br_info">
+					<li class="br_info_block">
+						<!--img src="images/br_pic1.png" alt=""-->
+						<div id="pic1"></div>
+						<span>Мир лучшей коллекции фильмов</span>
+						<span>Более 10 000 фильмов на одном сайте. Пополнение каждый день!</span>
+					</li>
+					<li class="br_info_block">
+						<!--img src="images/br_pic1.png" alt=""-->
+						<div id="pic2"></div>
+						<span>Неограниченная, быстрая, простая загрузка</span>
+						<span>Фильмы на различные устройства (PC, DVD 	 DivX players, iPod, PDA)</span>
+					</li>
+					<li class="br_info_block">
+						<!--img src="images/br_pic1.png" alt=""-->
+						<div id="pic3"></div>
+						<span>Различные форматы для всех устройств</span>
+						<span>Скорость загрузки просто УДИВИТЕЛЬНАЯ</span>
+					</li>
+				</ul>
+			</div>
+			<div class="body_left_block">
+				<div class="bl_text_block">
+					<span class="bl_question">Вы не зарегистрированны?</span>
+					<span class="bl_info">Создав учетную запиись, вы сможете скачать тысячи DVD-фильмов и HD-фильмов!</span>
+				</div>
+				<img src="images/bl_login_button.png" alt="" class="bl_login_button">
+				<div class="bl_registration">
+					<div id="bl_reg_email">
+						<label for="email" class="bl_email">E-mail</label>
+						<input id="email" type="text" class="bl_email">
+					</div>
+					<div id="bl_reg_password">
+						<label for="password" class="bl_password">Пароль</label>
+						<input id="password" type="text" class="bl_password">
+					</div>
+					<div id="bl_reg_two_password">
+						<label for="two_password" class="bl_two_password">Подтверждение пароля</label>
+						<input id="two_password" type="text" class="bl_two_password">
+					</div>
+					<div>
+						<input id="regi" type="button" class="submit" value="Регистрация!"/>
+					</div>
+				</div>
+			</div>
+			<div class="body_center">
+				<div class="center_galery">
+					<div class="center_search">
+						<div class="center_search_vkladki_block">
+							<div class="search_vkladka last_film search_act">
+								<span>Последний фильм</span>
+							</div>
+							<div class="search_vkladka top100">
+								<span>Топ 100</span>
+							</div>
+							<div class="search_vkladka HD_films">
+								<span>HD</span>
+							</div>
+						</div>
+						<div class="center_search_block">
+							<div>
+								<span class="search_caption">Поиск фильма:</span>
+								<div>
+									<img src="images/search_pic.png" alt="" class="search_pic">
+									<input type="search" class="search_text">
+								</div>
+								<span class="search_go">GO!</span>
+							</div>
+						</div>
+					</div>
+					<div class="center_pic_up">
+						<div class="center_galery_pic">
+							<img src="images/center_galery_pic.jpg" alt="">
+							<span>Faster</span>
+							<span>Боевик, триллер, ...</span>
+							<div id="download">
+								<span>Скачать</span>
+								<span>... или смотреть online</span>
+							</div>
+							<div id="reyting">
+								<img src="images/galery_reyting.png" alt="">
+								<span>8.3</span>
+							</div>
+						</div>
+						<div class="center_galery_pic">
+							<img src="images/center_galery_pic.jpg" alt="">
+							<span>Faster</span>
+							<span>Боевик, триллер, ...</span>
+							<div id="download">
+								<span>Скачать</span>
+								<span>... или смотреть online</span>
+							</div>
+							<div id="reyting">
+								<img src="images/galery_reyting.png" alt="">
+								<span>8.3</span>
+							</div>
+						</div>	
+						<div class="center_galery_pic">
+							<img src="images/center_galery_pic.jpg" alt="">
+							<span>Faster</span>
+							<span>Боевик, триллер, ...</span>
+							<div id="download">
+								<span>Скачать</span>
+								<span>... или смотреть online</span>
+							</div>
+							<div id="reyting">
+								<img src="images/galery_reyting.png" alt="">
+								<span>8.3</span>
+							</div>
+						</div>	
+						<div class="center_galery_pic">
+							<img src="images/center_galery_pic.jpg" alt="">
+							<span>Faster</span>
+							<span>Боевик, триллер, ...</span>
+							<div id="download">
+								<span>Скачать</span>
+								<span>... или смотреть online</span>
+							</div>
+							<div id="reyting">
+								<img src="images/galery_reyting.png" alt="">
+								<span>8.3</span>
+							</div>
+						</div>	
+						<div class="center_galery_pic">
+							<img src="images/center_galery_pic.jpg" alt="">
+							<span>Faster</span>
+							<span>Боевик, триллер, ...</span>
+							<div id="download">
+								<span>Скачать</span>
+								<span>... или смотреть online</span>
+							</div>
+							<div id="reyting">
+								<img src="images/galery_reyting.png" alt="">
+								<span>8.3</span>
+							</div>
+						</div>	
+					</div>
+					<div class="center_pic_down">
+						<div class="center_galery_pic">
+							<img src="images/center_galery_pic.jpg" alt="">
+							<span>Faster</span>
+							<span>Боевик, триллер, ...</span>
+							<div id="download">
+								<span>Скачать</span>
+								<span>... или смотреть online</span>
+							</div>
+							<div id="reyting">
+								<img src="images/galery_reyting.png" alt="">
+								<span>8.3</span>
+							</div>
+						</div>	
+						<div class="center_galery_pic">
+							<img src="images/center_galery_pic.jpg" alt="">
+							<span>Faster</span>
+							<span>Боевик, триллер, ...</span>
+							<div id="download">
+								<span>Скачать</span>
+								<span>... или смотреть online</span>
+							</div>
+							<div id="reyting">
+								<img src="images/galery_reyting.png" alt="">
+								<span>8.3</span>
+							</div>
+						</div>	
+						<div class="center_galery_pic">
+							<img src="images/center_galery_pic.jpg" alt="">
+							<span>Faster</span>
+							<span>Боевик, триллер, ...</span>
+							<div id="download">
+								<span>Скачать</span>
+								<span>... или смотреть online</span>
+							</div>
+							<div id="reyting">
+								<img src="images/galery_reyting.png" alt="">
+								<span>8.3</span>
+							</div>
+						</div>	
+						<div class="center_galery_pic">
+							<img src="images/center_galery_pic.jpg" alt="">
+							<span>Faster</span>
+							<span>Боевик, триллер, ...</span>
+							<div id="download">
+								<span>Скачать</span>
+								<span>... или смотреть online</span>
+							</div>
+							<div id="reyting">
+								<img src="images/galery_reyting.png" alt="">
+								<span>8.3</span>
+							</div>
+						</div>	
+						<div class="center_galery_pic">
+							<img src="images/center_galery_pic.jpg" alt="">
+							<span>Faster</span>
+							<span>Боевик, триллер, ...</span>
+							<div id="download">
+								<span>Скачать</span>
+								<span>... или смотреть online</span>
+							</div>
+							<div id="reyting">
+								<img src="images/galery_reyting.png" alt="">
+								<span>8.3</span>
+							</div>
+						</div>	
+					</div>
+					<div class="center_pages">
+						<ul class="center_pages_ul">
+							<li class="pages_item pages_act"><span>1</span></li>
+							<li class="pages_item"><span>2</span></li>
+						</ul>
+					</div>
+				</div>
+				<div class="center_category">
+					<span class="center_text">Категории</span>
+					<div class="center_table">
+						<ul class="center_ul">
+							<li class="c_categ_item">
+								<span class="item_text">Комедия</span>
+								<span class="item_num">124</span>
+							</li>
+							<li class="c_categ_item">
+								<span class="item_text">Приключение</span>
+								<span class="item_num">654</span>
+							</li>
+							<li class="c_categ_item">
+								<span class="item_text">Аниме</span>
+								<span class="item_num">98</span>
+							</li>
+							<li class="c_categ_item">
+								<span class="item_text">Биография</span>
+								<span class="item_num">18</span>
+							</li>
+							<li class="c_categ_item">
+								<span class="item_text">Экшен</span>
+								<span class="item_num">1905</span>
+							</li>
+							<li class="c_categ_item">
+								<span class="item_text">Криминал</span>
+								<span class="item_num">8</span>
+							</li>
+							<li class="c_categ_item">
+								<span class="item_text">Документальное</span>
+								<span class="item_num">13</span>
+							</li>
+							<li class="c_categ_item">
+								<span class="item_text">Драма</span>
+								<span class="item_num">15</span>
+							</li>
+							<li class="c_categ_item">
+								<span class="item_text">Семейное</span>
+								<span class="item_num">81</span>
+							</li>
+							<li class="c_categ_item">
+								<span class="item_text">Фантастика</span>
+								<span class="item_num">201</span>
+							</li>
+							<li class="c_categ_item">
+								<span class="item_text">Фильм-нуар</span>
+								<span class="item_num">50</span>
+							</li>
+							<li class="c_categ_item">
+								<span class="item_text">История</span>
+								<span class="item_num">438</span>
+							</li>
+							<li class="c_categ_item">
+								<span class="item_text">Ужасы</span>
+								<span class="item_num">59</span>
+							</li>
+							<li class="c_categ_item">
+								<span class="item_text">Музыка</span>
+								<span class="item_num">19</span>
+							</li>
+							<li class="c_categ_item">
+								<span class="item_text">Мюзикл</span>
+								<span class="item_num">608</span>
+							</li>
+							<li class="c_categ_item">
+								<span class="item_text">Мистика</span>
+								<span class="item_num">931</span>
+							</li>
+							<li class="c_categ_item">
+								<span class="item_text">Мультфильм</span>
+								<span class="item_num">98</span>
+							</li>
+							<li class="c_categ_item">
+								<span class="item_text">Детектив</span>
+								<span class="item_num">93</span>
+							</li>
+							<li class="c_categ_item">
+								<span class="item_text">Спорт</span>
+								<span class="item_num">31</span>
+							</li>
+							<li class="c_categ_item">
+								<span class="item_text">Фэнтези</span>
+								<span class="item_num">9</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="js/index.js"></script>
+</body>
+</html>
